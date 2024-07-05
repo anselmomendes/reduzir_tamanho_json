@@ -15,3 +15,42 @@
 - O resultado foi a reduzão de 30MB para 400kb
 
 - (400/30000 - 1) *100 = redução de 98%
+
+Exemplo do Json anterior
+
+~~~javascript
+{"v":"5.9.0",
+"fr":30,
+"ip":0,"op":948,
+"w":1080,"h":1080,
+"nm":"Composição",
+"ddd":0,
+"assets":  [{"id":"imgSeq_0",
+  "w":1080,
+  "h":1080,
+  "t":"seq",
+  "u":"",
+  "p":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABDgAAAQ4AQMAAADW3v7MAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAKVJREFUeNrtwTEBAAAAwqD1T20JT6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeBo93gABvA+tzQAAAABJRU5ErkJggg==",
+  "e":1},
+~~~
+
+Exemplo do novo Json
+
+~~~javascript
+{'v': '5.9.0',
+ 'fr': 30,
+ 'ip': 0,
+ 'op': 948,
+ 'w': 1080,
+ 'h': 1080,
+ 'nm': 'ComposiÃ§Ã£o',
+ 'ddd': 0,
+ 'assets': [{'id': 'imgSeq_0',
+   'w': 1080,
+   'h': 1080,
+   't': 'seq',
+   'u': '',
+   'p': 'https://raw.githubusercontent.com/anselmomendes/reduzir_tamanho_json/main/img/imgSeq_0.png',
+   'e': 1},
+~~~
+
